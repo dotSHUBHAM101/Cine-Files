@@ -4,7 +4,7 @@ A modern, Netflix-inspired movie discovery platform built with React and TMDB AP
 Explore trending movies, TV series, search any title, and dive into detailed information — all in one place.
 
 ## 🌐 Live Demo
-
+https://cine-files-live-mcgafgyvv-dotshubham101s-projects.vercel.app/
 
 ## 📸 Screenshots
 
