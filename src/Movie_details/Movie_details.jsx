@@ -16,7 +16,7 @@ function Movie_details() {
 
 useEffect(() => {
 
-  async function getCompleteMovieDetails() {
+  async function getCompleteMovieDetails() {    // will fetch again
     try {
       setLoading(true);
       setError(false);
@@ -117,6 +117,8 @@ useEffect(() => {
           ) : (
             <button className="watch_trailer_btn disabled_btn" disabled>Trailer Unavailable</button>
           )}
+
+          
 
           
           <div className="cast_section_block">
