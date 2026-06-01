@@ -1,0 +1,40 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh;
+}
+
+.box {
+    flex: 1;                
+    padding: 20px;
+}
+
+.basicnavbars{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    border-top: 1px solid #333;
+}
+
+.basicnavbars a {
+    color: white;
+    background-color: transparent;
+     padding: none;
+    transition: color 0.3s ease, background-color 0.3s ease , padding 0.3s ease;
+}
+
+.basicnavbars a:hover{
+    color: rgb(223, 9, 9);
+    background-color: rgb(244, 241, 241);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.basicnavbars a.active{
+    color: blue;
+    font-weight: 600px;
+}
