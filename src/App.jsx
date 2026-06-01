@@ -43,6 +43,7 @@ function App() {
                     <NavLink to = '/trending'>Trending</NavLink>
                     <NavLink to = '/Movies'>Movies</NavLink>
                     <NavLink to = '/Tvseries'>Tv series</NavLink>
+                    <NavLink to = '/search'>Search 🔍</NavLink>
                     </div>
 
 
