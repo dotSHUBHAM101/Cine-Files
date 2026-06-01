@@ -49,7 +49,20 @@ function Movie_name() {
 
             {error && (<p>Error occurred: {error}</p>)}
 
+            
+
       {movie_name && data?.results && (
+
+
+        data.results.length === 0 
+    ? (
+        <div className='error' style={{display : 'flex' , justifyContent : 'center' , alignItems : 'center' , height : '100vh' , flexDirection : 'column'}} >
+            <h2>OOPS movie not found!!!</h2>
+            <span style={{color: 'red' , marginTop : '20px'}}>Kindly retry</span>
+        </div>
+    )
+    :(
+
         <div className="content_area">
           {data.results.map((movie, index) => (
             <div className="movie_content" key={movie.id || index} onClick={() => navigate(`/movie/${encodeURIComponent(movie.title|| movie.name)}`)}>
@@ -68,10 +81,15 @@ function Movie_name() {
                 </h4>
                 <p>Rating: {movie.vote_average?.toFixed(1) || 'N/A'} ⭐ </p>
               </div>
+
+
+
             </div>
           ))}
+
+
         </div>
-      )}
+      ))}
       </>
 
         
@@ -79,3 +97,10 @@ function Movie_name() {
 }
 
 export default Movie_name
+
+
+        
+  )
+}
+
+export default Movie_name;
