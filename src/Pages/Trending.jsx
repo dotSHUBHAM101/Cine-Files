@@ -8,6 +8,7 @@ function Trending() {
  const apikey = import.meta.env.VITE_TMDB_API_KEY;
  
   const url = `https://api.themoviedb.org/3/trending/all/day?language=en-US&api_key=${apikey}`;
+  
   const { data, loading, error } = useFetch(url);
 
   const navigate = useNavigate();

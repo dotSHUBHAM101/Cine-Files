@@ -52,7 +52,7 @@
 
 .details_main_info_panel {
     flex: 1;
-    padding-top: 100px; /* Aligns description text level with banner offset */
+    padding-top: 100px; 
 }
 
 .movie_main_title {
