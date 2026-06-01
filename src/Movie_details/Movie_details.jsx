@@ -68,7 +68,7 @@ useEffect(() => {
   const topCast = movieData?.credits?.cast?.slice(0, 5);
 
 
-  console.log(movieData);
+
 
   return (
     <div className="movie_details_wrapper">
