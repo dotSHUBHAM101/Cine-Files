@@ -1,16 +1,60 @@
-# React + Vite
+# CineFiles 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, Netflix-inspired movie discovery platform built with React and TMDB API.
+Explore trending movies, TV series, search any title, and dive into detailed information — all in one place.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="926" height="496" alt="image" src="https://github.com/user-attachments/assets/cf4cc7c1-b42e-48b3-8a80-531eef10683b" />
 
-## Expanding the ESLint configuration
+<img width="919" height="493" alt="image" src="https://github.com/user-attachments/assets/0a3b7ec0-552f-4718-9650-cd9cffdef967" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="903" height="497" alt="image" src="https://github.com/user-attachments/assets/6190355b-25ab-4ca6-87fd-ad5fe6704f7c" />
+
+
+
+
+## ✨ Features
+
+- 🎯 **Hero Banner** — Dynamic backdrop of trending movie on home page
+- 🔥 **Trending Today** — Horizontally scrollable trending movies section
+- ⭐ **Highly Rated Movies** — Top rated movies in horizontal display
+- 🗓️ **Upcoming Movies** — Movies releasing soon
+- 🎬 **Movies Page** — Browse popular movies
+- 📺 **TV Series Page** — Explore trending TV shows
+- 🔍 **Smart Search** — Search any movie or show with debounced input
+- 📄 **Movie Detail Page** — Full details including overview, cast, genres, rating, trailer link
+- 💀 **Skeleton Loading** — Netflix-style loading placeholders
+- 🦶 **Footer Navigation** — Quick links available on every page
+- ❌ **Error Handling** — Proper error states throughout
+
+## 🛠️ Tech Stack
+
+- **Frontend** — React.js
+- **Routing** — React Router v6
+- **API** — TMDB (The Movie Database)
+- **Styling** — CSS3 with custom Netflix dark theme
+- **Deployment** — Vercel
+
+## ⚙️ Custom Hooks
+
+- `useFetch` — Reusable data fetching hook with loading and error states
+- `useDebounce` — Debounce hook for optimized search input
+-  `useNavigation` — To navigate user onclick.
+-  `useParams` — To store name of movie after its navigated.
+
+## 👨‍💻 Author
+
+**Your Name**
+- LinkedIn: [www.linkedin.com/in/shubham-mishra-38334b321]
+- GitHub: [https://github.com/dotSHUBHAM101]
+
+## ⭐ Show your support
+
+Give a ⭐ if you like this project!
+
+---
+

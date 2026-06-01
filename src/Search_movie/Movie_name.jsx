@@ -96,4 +96,4 @@ function Movie_name() {
   )
 }
 
-export default Movie_name
+export default Movie_name;
